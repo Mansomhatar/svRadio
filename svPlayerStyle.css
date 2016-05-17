@@ -1,0 +1,13 @@
+.playersList {
+    background-color: #31a1bd;
+    width: 420px;
+    height: auto;
+    position: fixed;
+    margin-left: 30%;
+    overflow-y: scroll;
+
+}
+.playerArticle {
+    
+    margin-top: 25px;
+}
