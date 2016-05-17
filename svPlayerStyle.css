@@ -1,13 +1,17 @@
 .playersList {
-    background-color: #31a1bd;
-    width: 420px;
+    background-color: #00009b;
+    width: 520px;
     height: auto;
     position: fixed;
     margin-left: 30%;
-    overflow-y: scroll;
+    overflow-y: auto;
+    scroll-snap-points-y: repeat(200px);
+    scroll-snap-type: mandatory;
 
 }
 .playerArticle {
     
     margin-top: 25px;
+    image-rendering: auto;
+    icon: auto;
 }
